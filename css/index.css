@@ -255,10 +255,9 @@ header {
 
 .project__content .project__housing {
     background-image: url('../img/housing.png');
-    background-size: contain;
+    background-size: 100%;
     background-repeat: no-repeat;
     height: 300px;
-    width: 100%;
 }
 
 .project__content .project__bake {
@@ -563,6 +562,22 @@ i {
     .project__content h4 {
         font-size: 15px;
     }
+    .project__content .project__housing,
+    .project__content .project__bake,
+    .project__content .project__merged,
+    .project__content .project__honda,
+    .project__content .project__instruction,
+    .project__content .project__elearning,
+    .project__content .project__movie,
+    .project__content .project__jira {
+        height: 200px;
+    }
+    .project__html .carousel__btn,
+    .project__sass .carousel__btn,
+    .project__react .carousel__btn {
+        padding: 30px 50px;
+        font-size: 13px;
+    }
 }
 
 @media screen and (max-width: 680px) {
@@ -571,6 +586,15 @@ i {
     }
     .footer__top ul li h4 {
         font-size: 20px;
+    }
+    .project__html .carousel__btn,
+    .project__sass .carousel__btn,
+    .project__react .carousel__btn {
+        padding: 30px 10px;
+        font-size: 11px;
+    }
+    .carousel__btn a {
+        font-size: 11px;
     }
 }
 
@@ -590,6 +614,10 @@ i {
     }
     .project__content h4 {
         font-size: 13px;
+    }
+    .carousel__btn a {
+        font-size: 9px;
+        padding: 3px 6px;
     }
 }
 

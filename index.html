@@ -445,7 +445,7 @@
 
     <script src="./js/jquery-1.9.1.min.js "></script>
     <!-- OWL JS -->
-    <script src="./js/owl.carousel.js "></script>
+    <script src="./js/owl.carousel.min.js "></script>
     <script>
         $(document).ready(function() {
             $(".owl-carousel ").owlCarousel();
@@ -456,7 +456,7 @@
             paginationSpeed: 800,
 
             // Autoplay
-            autoPlay: true,
+            // autoPlay: true,
             goToFirst: true,
             goToFirstSpeed: 1000,
 
@@ -465,7 +465,11 @@
 
             // Responsive
             responsive: true,
-            items: 1
+            items: 1,
+            itemsDesktop: [1199, 1],
+            itemsDesktopSmall: [979, 1],
+            itemsTablet: [768, 1],
+            itemsMobile: [479, 1],
 
         });
     </script>
